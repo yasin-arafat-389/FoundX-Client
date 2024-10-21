@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 "use client";
 
 import { FC } from "react";
@@ -7,7 +8,7 @@ import { useTheme } from "next-themes";
 import { useIsSSR } from "@react-aria/ssr";
 import clsx from "clsx";
 
-import { SunFilledIcon, MoonFilledIcon } from "@/src/components/icons";
+import { MoonFilledIcon, SunFilledIcon } from "@/src/assets/icons";
 
 export interface ThemeSwitchProps {
   className?: string;
